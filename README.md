@@ -14,9 +14,13 @@ You are free to use, modify, and distribute this software under the terms of the
 
 ## Environment
 -Ubuntu 24.04
+
 -ROS2 Jazzy
+
 -Gazebo Harmonic (Gz-Sim 8)
+
 -PX4-Autopilot
+
 -QGroundControl
 
 ## Virtual Python Environment
