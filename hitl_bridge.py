@@ -141,7 +141,7 @@ class HITLBridge:
             now = time.time()
             rate = window / (now - last_time)
 
-            print(f"[{name}] {rate:.1f} Hz")
+            # print(f"[{name}] {rate:.1f} Hz")
 
             return now
 
@@ -362,7 +362,7 @@ class HITLBridge:
         for i in range(4):
             # speed = max(0.0, msg.controls[i]) * MOTOR_SPEED_SCALE
             u = max(0.0, msg.controls[i])
-            speed = math.sqrt(u) * MAX_ROTOR_VELOCITY
+            speed = u * MAX_ROTOR_VELOCITY
             act.velocity.append(speed)
         if self._motor_count == 1:
             print(f"  [{ts()}] -> first MOTOR cmd: "
