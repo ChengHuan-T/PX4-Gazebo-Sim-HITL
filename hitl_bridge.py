@@ -44,7 +44,7 @@ from gz.msgs10 import (
 # --- defaults ---
 SERIAL_PORT = "/dev/ttyACM*"   # Modify with your serial port
 BAUD_RATE = 921600
-WORLD_NAME = "hitl"
+WORLD_NAME = "baylands"
 MODEL_NAME = "x500"
 QGC_UDP_PORT = 14550           # QGroundControl default MAVLink UDP port
 
